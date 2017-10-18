@@ -1,0 +1,3 @@
+rene_gust_sfdrw_homepage:
+    path:     /
+    defaults: { _controller: ReneGustSFDRWBundle:Default:index }

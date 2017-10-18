@@ -1,0 +1,23 @@
+{
+  "name": "renegust/sdrw-bundle",
+  "type": "symfony-bundle",
+  "description": "symfony don't reinvent the wheel bundle: useful classes for developing symfony applications",
+  "keywords": [
+    "symfony"
+  ],
+  "homepage": "https://www.github.com/rene-gust",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rene Gust",
+      "email": "info@rene-gust.de"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/symfony": "^2.8"
+  },
+  "support": {
+    "email": "info@rene-gust.de"
+  }
+}
