@@ -31,7 +31,7 @@ class ICal {
         $timezone = new Timezone($timeZone);
         $timezone->addComponent(
             (new TimezoneRule(TimezoneRule::TYPE_STANDARD))
-                ->setTzName('CEST')
+                ->setTzName('CET')
                 ->setDtStart(new Date('1996-10-27 03:00:00'), new \DateTimeZone($timeZone))
                 ->setTzOffsetFrom('+0200')
                 ->setTzOffsetTo('+0100')
